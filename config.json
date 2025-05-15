@@ -1,0 +1,13 @@
+{
+  "agents": {
+    "DocumentAgent": {
+      "description": "Extracts structured data from documents like agreements and deeds.",
+      "system_message": "You are a helpful assistant that parses and extracts data fields from documents, such as developer names, dates, or agreement terms."
+    },
+    "SQLAgent": {
+      "description": "Generates and executes SQL queries based on structured document data or user input.",
+      "system_message": "You are a SQL assistant that converts natural language into SQL queries based on previously parsed document fields."
+    }
+  },
+  "selector_prompt": "Select the best agent to handle a task related to document understanding or SQL execution based on the content and goal."
+}

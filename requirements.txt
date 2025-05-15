@@ -1,0 +1,10 @@
+autogen
+autogen-watsonx-client
+autogen-agentchat
+ibm-watsonx-ai
+python-dotenv
+sec-api
+html2text
+streamlit
+fastapi
+uvicorn
