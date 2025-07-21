@@ -14,7 +14,7 @@ from autogen_watsonx_client.config import WatsonxClientConfiguration
 from autogen_watsonx_client.client import WatsonXChatCompletionClient
 from autogen_agentchat.agents import AssistantAgent
 
-# Import tools for each agent
+# Import tools for each agent and parse them
 from tools.document_parser import parse_document  # your custom document parsing logic
 from tools.sql_tool import sql_query_tool         # your custom SQL-to-query logic
 
