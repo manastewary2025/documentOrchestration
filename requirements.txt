@@ -1,3 +1,4 @@
+#requirements
 autogen
 autogen-watsonx-client
 autogen-agentchat
